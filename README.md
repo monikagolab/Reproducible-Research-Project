@@ -7,21 +7,21 @@ This repository contains materials prepared as part of the Reproducible Research
 Reproducible-Research-Project/
 ├── crypto_var/               # Main Python package
 │   ├── __init__.py
-│   ├── data.py               # Data download & log-returns (CryptoDataLoader)
+│   ├── data.py               # Data download & log-returns
 │   ├── model.py              # VAR estimation & diagnostics
 │   ├── forecast.py           # Out-of-sample validation & metrics
 │   └── plots.py              # All visualizations
 ├── notebooks/
-│   └── exploration.ipynb     # Development/scratch notebook
+│   └── exploration.ipynb     # Scratch notebook
 ├── report/
-│   └── report.qmd            # Quarto report (final output)
-├── docs/                     # Sphinx HTML documentation (auto-generated)
+│   └── report.qmd            # Quarto report (?)
+├── docs/                     # Sphinx HTML documentation
 ├── tests/                    # Unit tests
 ├── Dockerfile                # Docker image definition
 ├── docker-compose.yml        # Docker Compose configuration
-├── Makefile                  # Automation of key project steps
-├── pyproject.toml            # Linting configuration (ruff)
-├── .pre-commit-config.yaml   # Pre-commit hooks
+├── Makefile                  # Automation of key project steps (?)
+├── pyproject.toml            # Linting configuration (?)
+├── .pre-commit-config.yaml   # Pre-commit hooks (?)
 ├── requirements.txt          # Python dependencies
 └── README.md
 ```
