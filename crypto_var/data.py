@@ -1,6 +1,6 @@
 """Cryptocurrency price data downloading and log-return computation."""
 
-from _future_ import annotations
+from __future__ import annotations
 
 import logging
 
@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 
 
 class DataLoader:
